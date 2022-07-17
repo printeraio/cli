@@ -9,6 +9,6 @@ else
   mkdir -p "$DIR" && cd "$DIR"
 fi
 
-sudo wget -o https://raw.githubusercontent.com/printeraio/cli/main/printera
+sudo wget -o https://raw.githubusercontent.com/printeraio/cli/master/printera
 sudo mv printera /usr/local/bin/printera
 sudo chmod +x /usr/local/bin/printera
