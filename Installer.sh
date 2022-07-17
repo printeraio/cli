@@ -2,7 +2,7 @@
 
 echo "CLI Installing..."
 
-DIR="~/printera/cli"
+DIR="~/printera"
 if [ -d "$DIR" ]; then
   cd "$DIR"
 else
