@@ -6,7 +6,7 @@ DIR="~/printera"
 if [ -d "$DIR" ]; then
   cd "$DIR"
 else
-  mkdir -p "$DIR" && cd "$DIR"
+  mkdir "$DIR" && cd "$DIR"
 fi
 
 sudo wget -o https://raw.githubusercontent.com/printeraio/cli/master/printera
