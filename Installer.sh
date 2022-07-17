@@ -3,11 +3,7 @@
 echo "CLI Installing..."
 
 DIR="$HOME/printera"
-if [ -d "$DIR" ]; then
-  cd "$DIR"
-else
-  mkdir "$DIR" && cd "$DIR"
-fi
+mkdir -p "$DIR" && cd "$DIR"
 
 sudo wget -o https://raw.githubusercontent.com/printeraio/cli/master/printera
 sudo mv printera /usr/local/bin/printera
